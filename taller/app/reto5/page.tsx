@@ -1,1 +1,9 @@
-export default function Page() { return <h1>Reto 5</h1>; }
+import PasswordGenerator from "../../components/PasswordGenerator";
+
+export default function Reto5() {
+  return (
+    <main className="container py-5">
+      <PasswordGenerator />
+    </main>
+  );
+}
