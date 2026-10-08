@@ -1,0 +1,46 @@
+.formulario-reto3 {
+  display: flex;
+  gap: 10rem;
+  max-width: 720px;
+  margin: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4rem;
+}
+
+.formulario-reto3 .campo {
+  margin-bottom: 1.5rem;
+}
+
+.formulario-reto3 label {
+  display: block;
+}
+
+.formulario-reto3 input {
+  display: block;
+  width: 160px;
+  font-size: 1rem;
+  padding: 1px 4px;
+  border: 1px solid #767676;
+  border-radius: 3px;
+}
+
+.formulario-reto3 .error {
+  margin: 4px 0 0;
+  color: #dc3545;
+  font-size: 0.9rem;
+}
+
+.formulario-reto3 button {
+  font-size: 1rem;
+  padding: 1px 8px;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  background: #efefef;
+}
+
+.formulario-reto3 .resultado {
+  margin-top: 2rem;
+}
